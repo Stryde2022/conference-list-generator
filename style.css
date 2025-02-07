@@ -289,7 +289,8 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 250px;
+    max-height: 250px;
+    height: 230px;
     padding-left: 30px;
 }
 
@@ -305,14 +306,15 @@ label {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 0px;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 .logo-head {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     margin-top: 0;
 }
 
@@ -334,7 +336,7 @@ label {
     position: absolute;
     right: -10px;
     top: 100px;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #8784a4;
 }
 
