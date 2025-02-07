@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
 main {
@@ -10,6 +11,8 @@ main {
     background-position: center;
     min-height: 100vh; /* Ensures at least full viewport height */
     height: auto; /* Expands as content grows */
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 #pattern-lines {
@@ -265,7 +268,8 @@ label {
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 445px;
+    width: 90%;
+    max-width: 445px;
     margin-right: auto;
     margin-left: auto;
     min-height: fit-content;
@@ -302,7 +306,7 @@ label {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .logo-head {
@@ -410,16 +414,16 @@ label {
     }
 
     .ticket-sub-1 {
-        padding-left: 60px;
+        padding-left: 30px;
     }
 
     .logo-ticket-1 {
-        margin-top: 30px;
+        margin-top: 63px;
     }
 
     #tag-number {
-        top: 85px;
-        right: 30px;
+        top: 105px;
+        right: -10px;
     }
 }
 
